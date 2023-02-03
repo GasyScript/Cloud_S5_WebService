@@ -5,6 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.cloud.Enchere.model.Photo;
 
-@Repository
+
 public interface PhotoRepository extends MongoRepository<Photo,String> {
 }
